@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+aws:
+  region: us-east-1
+  access-key: aws_access_key_id
+  secret-key: aws_secret_access_key
+  sns-endpoint: http://localhost:4566
+  sns-topic:
+    name: iot-device-topic
